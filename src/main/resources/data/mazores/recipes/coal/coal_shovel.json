@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    " y ",
+    " y "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:coal_block"
+    },
+    "y":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "mazores:coal_shovel",
+    "count": 1
+  }
+}

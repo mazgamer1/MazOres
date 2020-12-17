@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "x x",
+    "x x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result":
+  {
+    "item": "mazores:coal_boots",
+    "count": 1
+  }
+}

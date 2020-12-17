@@ -1,0 +1,13 @@
+use the template below to add your item
+"item.mazores.[ITEM NAME]": "[ITEM NAME IN GAME]",
+
+then in models/item put a new file named [ITEM NAME.json]
+then put this template in the file and fill it in
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mazores:items/[ITEM NAME]"
+  }
+}
+
+then put the texture in textures/items as a png named as your item

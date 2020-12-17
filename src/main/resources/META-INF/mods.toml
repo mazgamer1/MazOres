@@ -1,0 +1,40 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[31,)" #mandatory
+
+issueTrackerURL="https://github.com/mazgamer1/MazOres" #optional
+
+[[mods]] #mandatory
+
+modId="mazores" #mandatory
+
+version="1.15.2-1.0.0" #mandatory
+
+displayName="MazOres" #mandatory
+
+#updateJSONURL="" #optional
+
+displayURL="https://github.com/mazgamer1/MazOres" #optional
+
+#logoFile="" #optional
+
+credits="Thanks to technovision for teaching me the basics of coding" #optional
+
+authors="mazgamer1" #optional
+
+description='''
+This is a mod that adds more Ores
+'''
+
+[[dependencies.examplemod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
